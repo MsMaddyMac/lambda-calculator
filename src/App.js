@@ -8,7 +8,7 @@ import Operators from "../src/components/ButtonComponents/OperatorButtons/Operat
 import Specials from "../src/components/ButtonComponents/SpecialButtons/Specials";
 
 // // imports display components:
-// import Display from "./components/DisplayComponents/Display";
+import Display from "../src/components/DisplayComponents/Display";
 
 // Logo has already been provided for you. Do the same for the remaining components
 import Logo from "./components/DisplayComponents/Logo";
@@ -29,6 +29,7 @@ function App() {
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
         {/* <Display /> */}
+        <Display />
         <Numbers />
         <Operators />
         <Specials />
